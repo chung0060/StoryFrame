@@ -74,3 +74,4 @@ Under the following terms:
 The sample music file in the `/assets` folder comes from the following creator and is used under its respective license:
 
 * "[**lofi-song-backyard**](https://pixabay.com/music/id-242713/)" by [**Lofium**](https://pixabay.com/users/lofium-30660321/) from [**Pixabay**](https://pixabay.com/music/) (Pixabay Content License)
+
