@@ -10,7 +10,7 @@ A modern, feature-rich, and highly customizable full-screen photo slideshow web 
 ![Main Window](docs/images/screenshot1.jpg)
 
 ### Menu
-![Menu](docs/images/screenshot2.jpg)
+<img src="docs/images/screenshot2.jpg" alt="Menu" width="400">
 
 ## Table of Contents
 - [StoryFrame Slideshow](#storyframe-slideshow)

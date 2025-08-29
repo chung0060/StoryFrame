@@ -10,7 +10,7 @@
 ![Main Window](docs/images/screenshot1.jpg)
 
 ### 選單
-![Menu](docs/images/screenshot2.jpg)
+<img src="docs/images/screenshot2.jpg" alt="Menu" width="400">
 
 ## 目錄
 - [StoryFrame Slideshow](#storyframe-slideshow)
