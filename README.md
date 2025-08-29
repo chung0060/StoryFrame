@@ -4,6 +4,11 @@
 
 A modern, feature-rich, and highly customizable full-screen photo slideshow web application.
 
+## Live Demo
+
+**[https://chung0060.github.io/StoryFrame/](https://chung0060.github.io/StoryFrame/)**
+
+---
 ## Screenshots
 
 ### Main Window
@@ -14,6 +19,7 @@ A modern, feature-rich, and highly customizable full-screen photo slideshow web 
 
 ## Table of Contents
 - [StoryFrame Slideshow](#storyframe-slideshow)
+  - [Live Demo](#live-demo)
   - [Screenshots](#screenshots)
     - [Main Window](#main-window)
     - [Menu](#menu)
@@ -74,4 +80,3 @@ Under the following terms:
 The sample music file in the `/assets` folder comes from the following creator and is used under its respective license:
 
 * "[**lofi-song-backyard**](https://pixabay.com/music/id-242713/)" by [**Lofium**](https://pixabay.com/users/lofium-30660321/) from [**Pixabay**](https://pixabay.com/music/) (Pixabay Content License)
-

@@ -4,6 +4,10 @@
 
 一個現代化、功能豐富且可高度客製化的全螢幕照片輪播網頁。
 
+## Live Demo
+
+**[https://chung0060.github.io/StoryFrame/](https://chung0060.github.io/StoryFrame/)**
+
 ## 截圖
 
 ### 主畫面
@@ -14,6 +18,7 @@
 
 ## 目錄
 - [StoryFrame Slideshow](#storyframe-slideshow)
+  - [Live Demo](#live-demo)
   - [截圖](#截圖)
     - [主畫面](#主畫面)
     - [選單](#選單)
