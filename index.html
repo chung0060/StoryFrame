@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryFrame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="background-container">
+        <div class="background-image"></div>
+        <div class="background-image"></div>
+    </div>
+
+    <div id="slideshow-container">
+        <img alt="Slideshow Image" class="slide-image">
+        <img alt="Slideshow Image" class="slide-image">
+    </div>
+
+    <div id="ui-controls">
+        <div id="menu-toggle" title="Settings">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="1"></circle>
+                <circle cx="19" cy="12" r="1"></circle>
+                <circle cx="5" cy="12" r="1"></circle>
+            </svg>
+        </div>
+
+        <div id="settings-panel">
+            <div class="setting-item">
+                <label>Transition</label>
+                <div class="options-group" id="transition-options">
+                    <div class="highlight"></div>
+                    <button data-value="fade" class="active">Fade I/O</button>
+                    <button data-value="slide">Slide</button>
+                </div>
+            </div>
+            <div class="setting-item">
+                <label>Mode</label>
+                <div class="options-group" id="playback-options">
+                    <div class="highlight"></div>
+                    <button data-value="sequential" class="active">Sequential</button>
+                    <button data-value="random">Random</button>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <label>Music</label>
+                <div class="options-group" id="music-options">
+                    <div class="highlight"></div>
+                    <button data-value="off" class="active" title="off">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                    </button>
+                    <button data-value="on" title="on">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <label for="interval-slider">Interval Times: <span id="interval-value">5</span> sec</label>
+                <input type="range" id="interval-slider" min="3" max="30" value="5" class="slider">
+            </div>
+
+            <div class="setting-item">
+                <label>Background</label>
+                <div class="options-group" id="background-options">
+                    <div class="highlight"></div>
+                    <button data-value="blur" class="active">Blur</button>
+                    <button data-value="black">Black</button>
+                    <button data-value="white">White</button>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-clock-checkbox">
+                        <span>Clock</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-logo-checkbox">
+                        <span>Logo</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="clock-container">
+        <span class="am-pm"></span>
+        <span class="time"></span>
+    </div>
+
+    <div id="logo-container">
+        <img src="assets/logo.png" alt="Logo">
+    </div>
+
+    <audio id="background-music" loop src="assets/music.mp3"></audio>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
