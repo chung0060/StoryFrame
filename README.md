@@ -45,7 +45,7 @@ A modern, feature-rich, and highly customizable full-screen photo slideshow web 
 * **Background Music**: Supports background music playback, with on/off control in the menu.
 * **Modern UI**: Clean and modern interface with smooth hover and highlight animations.
 
-## How to Use
+## How to Use ？
 
 1.  **Download the Project**: Download all project files to your computer.
 2.  **Prepare Photos**:
