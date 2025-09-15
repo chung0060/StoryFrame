@@ -75,8 +75,8 @@ Under the following terms:
 * **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 * **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license (`CC BY-SA 4.0`) or a compatible license.  
 
+
 ### Background Music Credit
 
 The sample music file in the `/assets` folder comes from the following creator and is used under its respective license:
-
 * "[**lofi-song-backyard**](https://pixabay.com/music/id-242713/)" by [**Lofium**](https://pixabay.com/users/lofium-30660321/) from [**Pixabay**](https://pixabay.com/music/) (Pixabay Content License)
